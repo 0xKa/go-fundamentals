@@ -23,5 +23,6 @@ go run . 3
 | 1 | Go introduction | [01_go_intro.go](practice/01_go_intro.go) | [01_go_intro.md](markdown/01_go_intro.md) |
 | 2 | Variables | [02_vars.go](practice/02_vars.go) | [02_vars.md](markdown/02_vars.md) |
 | 3 | Numeric types | [03_numbers_in_go.go](practice/03_numbers_in_go.go) | [03_numbers_in_go.md](markdown/03_numbers_in_go.md) |
+| 4 | Printing and formatting | [04_formatting.go](practice/04_formatting.go) | [04_formatting.md](markdown/04_formatting.md) |
 
 Go examples are stored in [`practice/`](practice), and their explanations are stored in [`markdown/`](markdown). More practices will be added over time.

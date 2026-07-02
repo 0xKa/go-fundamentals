@@ -17,6 +17,7 @@ var practices = map[int]Practice{
 	1: {Title: "Go Introduction", Run: practice.GoIntroEx1},
 	2: {Title: "Variables", Run: practice.VarsEx2},
 	3: {Title: "Numeric Types in Go", Run: practice.NumbersInGoEx3},
+	4: {Title: "Printing and Formatting", Run: practice.FormattingEx4},
 }
 
 func runPractice(number int) {

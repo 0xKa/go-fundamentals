@@ -3,6 +3,13 @@ package main
 import "fmt"
 
 func main() {
+	startCLI()
+	// fmt.Print("WO")
+
+}
+
+func startCLI() {
+
 	number, err := getPracticeNumber()
 	if err != nil {
 		fmt.Println("Invalid practice number.")
