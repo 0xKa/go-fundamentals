@@ -1,8 +1,8 @@
-package main
+package practice
 
 import "fmt"
 
-func Vars_Ex2() {
+func VarsEx2() {
 	// Explicit type declaration.
 	var name1 string = "Reda"
 

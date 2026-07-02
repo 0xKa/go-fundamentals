@@ -1,4 +1,4 @@
-package main
+package practice
 
 import "fmt"
 
@@ -11,7 +11,7 @@ func (p Person) Hi() string {
 	return "Hello, my name is " + p.Name
 }
 
-func GoIntro_Ex1() {
+func GoIntroEx1() {
 	person := Person{
 		Name: "Reda",
 		Age:  21,

@@ -1,8 +1,8 @@
-package main
+package practice
 
 import "fmt"
 
-func NumbersInGo_Ex3() {
+func NumbersInGoEx3() {
 	// Signed integer types.
 	var wholeNumber int = 21
 	var smallNumber int8 = 127
