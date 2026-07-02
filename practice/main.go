@@ -12,6 +12,18 @@ func (p Person) Hi() string {
 }
 
 func main() {
-	p := Person{Name: "Reda", Age: 21}
-	fmt.Println(p.Hi())
+	var name1 string = "Reda"
+
+	var name2 = "Ali"
+
+	name3 := "Ahmed"
+
+	var name4 string
+	name4 = "Mohammed"
+
+	fmt.Println(name1)
+	fmt.Println(name2)
+	fmt.Println(name3)
+	fmt.Println(name4)
+
 }
