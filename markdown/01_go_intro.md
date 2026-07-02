@@ -1,5 +1,7 @@
 # Go
 
+[Corresponding Go file](../practice/01_go_intro.go)
+
 Go is a statically typed, compiled programming language designed at Google. It is known for its simplicity, efficiency, and strong support for concurrent programming. Go is often used for building web servers, networking tools, and other performance-critical applications.
 
 ## Is Go Objective Oriented?
@@ -35,4 +37,4 @@ func main() {
 
 Output:
 
-![alt text](./imgs/image.png)
+![alt text](./imgs/basic_function.png)

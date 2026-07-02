@@ -1,5 +1,7 @@
 # Variables, Strings, and Numbers in Go
 
+[Corresponding Go file](../practice/02_vars.go)
+
 ### Variables
 
 4 ways to declare variables in Go:
