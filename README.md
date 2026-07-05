@@ -27,5 +27,6 @@ go run . 3
 | 5 | Arrays and slices | [05_arrays_and_slices.go](practice/05_arrays_and_slices.go) | [05_arrays_and_slices.md](markdown/05_arrays_and_slices.md) |
 | 6 | Go Standard Library | [06_go_standard_library.go](practice/06_go_standard_library.go) | [06_go_standard_library.md](markdown/06_go_standard_library.md) |
 | 7 | Loops in Go | [07_loops.go](practice/07_loops.go) | [07_loops.md](markdown/07_loops.md) |
+| 8 | Booleans and Conditions in Go | [08_booleans_and_conditions.go](practice/08_booleans_and_conditions.go) | [08_booleans_and_conditions.md](markdown/08_booleans_and_conditions.md) |
 
 Go examples are stored in [`practice/`](practice), and their explanations are stored in [`markdown/`](markdown). More practices will be added over time.
