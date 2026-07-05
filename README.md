@@ -4,7 +4,7 @@ A growing collection of small Go practices with matching Markdown notes.
 
 ## Run the Practice CLI Tool
 
-Run the CLI from the repository root and enter a practice number:
+Run the CLI from the repository root and choose a practice with the arrow keys:
 
 ```powershell
 go run .
@@ -15,6 +15,28 @@ Alternatively, provide the number directly:
 ```powershell
 go run . 3
 ```
+
+Completed practices are saved in your operating system's user configuration
+directory. The menu and `--list` command show your progress.
+
+```powershell
+# Show every practice and its completion status.
+go run . --list
+
+# Run the first practice you have not completed.
+go run . --resume
+
+# Clear all saved progress.
+go run . --reset-progress
+
+# Show command help.
+go run . --help
+```
+
+Press `Esc` or `Ctrl+C` to leave the interactive menu without an error.
+After a practice finishes, the interactive session stays open so you can run
+the next practice, repeat it, choose another one, or quit. Providing a practice
+number directly remains a one-shot command.
 
 ## Available Practices
 

@@ -1,20 +1,7 @@
 package main
 
-import (
-	"fmt"
-)
+import "go-fundamentals/internal/cli"
 
 func main() {
-	startCLI()
-}
-
-func startCLI() {
-
-	number, err := getPracticeNumber()
-	if err != nil {
-		fmt.Println("Invalid practice number.")
-		return
-	}
-
-	runPractice(number)
+	cli.Start()
 }
