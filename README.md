@@ -29,5 +29,7 @@ go run . 3
 | 7 | Loops in Go | [07_loops.go](practice/07_loops.go) | [07_loops.md](markdown/07_loops.md) |
 | 8 | Booleans and Conditions in Go | [08_booleans_and_conditions.go](practice/08_booleans_and_conditions.go) | [08_booleans_and_conditions.md](markdown/08_booleans_and_conditions.md) |
 | 9 | Functions in Go | [09_functions.go](practice/09_functions.go) | [09_functions.md](markdown/09_functions.md) |
+| 10 | Maps in Go | [10_maps.go](practice/10_maps.go) | [10_maps.md](markdown/10_maps.md) |
+| 11 | Pass by Value and Pointers in Go | [11_pointers.go](practice/11_pointers.go) | [11_pointers.md](markdown/11_pointers.md) |
 
 Go examples are stored in [`practice/`](practice), and their explanations are stored in [`markdown/`](markdown). More practices will be added over time.

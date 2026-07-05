@@ -14,15 +14,17 @@ type Practice struct {
 }
 
 var practices = map[int]Practice{
-	1: {Title: "Go Introduction", Run: practice.GoIntroEx1},
-	2: {Title: "Variables", Run: practice.VarsEx2},
-	3: {Title: "Numeric Types in Go", Run: practice.NumbersInGoEx3},
-	4: {Title: "Printing and Formatting", Run: practice.FormattingEx4},
-	5: {Title: "Arrays and Slices", Run: practice.ArraysAndSlicesEx5},
-	6: {Title: "Go Standard Library", Run: practice.StandardLibraryEx6},
-	7: {Title: "Loops in Go", Run: practice.LoopsEx7},
-	8: {Title: "Booleans and Conditions in Go", Run: practice.BooleansAndConditionsEx8},
-	9: {Title: "Functions in Go", Run: practice.FunctionsEx9},
+	1:  {Title: "Go Introduction", Run: practice.GoIntroEx1},
+	2:  {Title: "Variables", Run: practice.VarsEx2},
+	3:  {Title: "Numeric Types in Go", Run: practice.NumbersInGoEx3},
+	4:  {Title: "Printing and Formatting", Run: practice.FormattingEx4},
+	5:  {Title: "Arrays and Slices", Run: practice.ArraysAndSlicesEx5},
+	6:  {Title: "Go Standard Library", Run: practice.StandardLibraryEx6},
+	7:  {Title: "Loops in Go", Run: practice.LoopsEx7},
+	8:  {Title: "Booleans and Conditions in Go", Run: practice.BooleansAndConditionsEx8},
+	9:  {Title: "Functions in Go", Run: practice.FunctionsEx9},
+	10: {Title: "Maps in Go", Run: practice.MapsEx10},
+	11: {Title: "Pass by Value and Pointers in Go", Run: practice.PointersEx11},
 }
 
 func runPractice(number int) {
