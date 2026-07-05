@@ -55,5 +55,6 @@ number directly remains a one-shot command.
 | 9 | Functions in Go | [09_functions.go](practice/09_functions.go) | [09_functions.md](markdown/09_functions.md) |
 | 10 | Maps in Go | [10_maps.go](practice/10_maps.go) | [10_maps.md](markdown/10_maps.md) |
 | 11 | Pass by Value and Pointers in Go | [11_pointers.go](practice/11_pointers.go) | [11_pointers.md](markdown/11_pointers.md) |
+| 12 | Structs and Custom Types in Go | [12_structs_and_custom_types.go](practice/12_structs_and_custom_types.go) | [12_structs_and_custom_types.md](markdown/12_structs_and_custom_types.md) |
 
 Go examples are stored in [`practice/`](practice), and their explanations are stored in [`markdown/`](markdown). More practices will be added over time.
