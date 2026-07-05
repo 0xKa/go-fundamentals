@@ -22,6 +22,7 @@ var practices = map[int]Practice{
 	6: {Title: "Go Standard Library", Run: practice.StandardLibraryEx6},
 	7: {Title: "Loops in Go", Run: practice.LoopsEx7},
 	8: {Title: "Booleans and Conditions in Go", Run: practice.BooleansAndConditionsEx8},
+	9: {Title: "Functions in Go", Run: practice.FunctionsEx9},
 }
 
 func runPractice(number int) {
