@@ -5,11 +5,7 @@ import (
 )
 
 func main() {
-
-	score := new(int)
-	fmt.Printf("Initial score: %d\n", *score)
-
-	// startCLI()
+	startCLI()
 }
 
 func startCLI() {

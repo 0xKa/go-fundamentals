@@ -2,10 +2,14 @@ package main
 
 import (
 	"fmt"
-	"go-fundamentals/practice"
 	"os"
+	"sort"
 	"strconv"
 	"strings"
+
+	"go-fundamentals/practice"
+
+	"charm.land/huh/v2"
 )
 
 type Practice struct {
@@ -47,10 +51,26 @@ func getPracticeNumber() (int, error) {
 		return strconv.Atoi(os.Args[1])
 	}
 
-	// otherwise, prompt the user for a number.
-	var number int
-	fmt.Print("Enter a practice number: ")
-	_, err := fmt.Scan(&number)
+	// Map iteration is unordered, so sort the practice numbers.
+	numbers := make([]int, 0, len(practices))
+	for number := range practices {
+		numbers = append(numbers, number)
+	}
+	sort.Ints(numbers)
 
-	return number, err
+	options := make([]huh.Option[int], 0, len(numbers))
+	for _, number := range numbers {
+		practice := practices[number]
+		label := fmt.Sprintf("%02d: %s", number, practice.Title)
+		options = append(options, huh.NewOption(label, number))
+	}
+
+	var selected int
+	err := huh.NewSelect[int]().
+		Title("Choose a practice").
+		Options(options...).
+		Value(&selected).
+		Run()
+
+	return selected, err
 }
