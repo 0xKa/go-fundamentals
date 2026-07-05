@@ -26,5 +26,6 @@ go run . 3
 | 4 | Printing and formatting | [04_formatting.go](practice/04_formatting.go) | [04_formatting.md](markdown/04_formatting.md) |
 | 5 | Arrays and slices | [05_arrays_and_slices.go](practice/05_arrays_and_slices.go) | [05_arrays_and_slices.md](markdown/05_arrays_and_slices.md) |
 | 6 | Go Standard Library | [06_go_standard_library.go](practice/06_go_standard_library.go) | [06_go_standard_library.md](markdown/06_go_standard_library.md) |
+| 7 | Loops in Go | [07_loops.go](practice/07_loops.go) | [07_loops.md](markdown/07_loops.md) |
 
 Go examples are stored in [`practice/`](practice), and their explanations are stored in [`markdown/`](markdown). More practices will be added over time.
