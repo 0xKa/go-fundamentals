@@ -243,13 +243,11 @@ default:
 
 As with an `if` chain, the first matching case runs.
 
-## Common mistakes
+## Summary
 
-- Using `=` when a comparison needs `==`.
-- Adding parentheses around every `if` condition out of habit from another language.
-- Using a non-boolean value as a condition.
-- Placing `else` on a new line after the preceding closing brace.
-- Ordering broad conditions before more specific ones.
-- Expecting `switch` cases to fall through automatically.
+Boolean expressions let a program compare values and choose which code should run.
 
-Choose `if` when conditions involve different expressions or ranges. Choose `switch` when several branches are organized around one value or a clean list of conditions.
+- Conditions in Go must evaluate to `bool`.
+- Combine conditions with `&&`, `||`, and `!`.
+- Use `if` for ranges or unrelated expressions.
+- Use `switch` when several branches form a clear set of choices.

@@ -172,3 +172,12 @@ Rule:
 slice = view into an array
 same backing array until append needs more capacity
 ```
+
+## Summary
+
+Arrays have a fixed length, while slices are flexible views over arrays whose length and capacity can change as the program works with them.
+
+- An array's length is part of its type.
+- A slice may share its backing array with other slices.
+- `len` counts accessible elements; `cap` measures available backing storage.
+- Always assign the value returned by `append`.

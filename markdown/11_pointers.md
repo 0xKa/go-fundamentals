@@ -278,7 +278,7 @@ Prefer a non-pointer value when:
 
 Strings, slices, maps, functions, channels, and interfaces are small descriptor-like values. Passing them directly is normal; a pointer to one of these types is rarely needed.
 
-## Pointer limitations and common mistakes
+## Pointer limitations
 
 Go keeps pointer operations deliberately small and safe:
 
@@ -287,13 +287,11 @@ Go keeps pointer operations deliberately small and safe:
 - Go does not support pointer arithmetic;
 - a pointer must point to a value of the correct type.
 
-Common mistakes include:
+## Summary
 
-- expecting a function to change a non-pointer argument;
-- calling `*pointer` when `pointer` might be nil;
-- confusing `*T`, a pointer type, with `*pointer`, a dereference;
-- passing a pointer when returning a value would be simpler;
-- assuming slices and maps break the pass-by-value rule;
-- taking pointers to values without a clear mutation, identity, or optional-value need.
+Pointers make shared mutation, identity, or an optional value explicit while still following Go's pass-by-value rule.
 
-Pointers are most useful when they make shared mutation or identity explicit. For ordinary calculations, values and return statements usually keep the code simpler.
+- Use `&value` to take an address and `*pointer` to access its value.
+- Check for `nil` before dereferencing when nil is possible.
+- Pass a pointer when a function must update the caller's value.
+- Prefer ordinary values and return statements when shared identity is unnecessary.

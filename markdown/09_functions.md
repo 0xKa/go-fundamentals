@@ -236,14 +236,11 @@ func add(first, second int) int {
 
 Keeping variables in the smallest useful scope makes code easier to understand and prevents unrelated functions from changing them accidentally.
 
-## Common mistakes
+## Summary
 
-- Declaring a named function inside another function.
-- Forgetting the type of a parameter or return value.
-- Returning the wrong number of values.
-- Receiving multiple return values in the wrong order.
-- Ignoring a returned value without using `_`.
-- Expecting a copied argument such as an `int` to change in the caller.
-- Forgetting that code after `return` in the same block cannot run.
+Functions organize behavior into reusable units with explicit inputs, outputs, and local scope.
 
-Give functions short, descriptive names and keep each function focused on one clear task.
+- Declare parameter and return types in the function signature.
+- Use multiple return values when results naturally belong together.
+- Use `_` to intentionally ignore an unwanted returned value.
+- Remember that arguments are passed by value.

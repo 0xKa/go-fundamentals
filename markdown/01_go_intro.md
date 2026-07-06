@@ -38,3 +38,11 @@ func main() {
 Output:
 
 ![alt text](./imgs/basic_function.png)
+
+## Summary
+
+Go is a compiled, statically typed language that favors simple building blocks and composition over class-based inheritance.
+
+- Structs group related data into one type.
+- Methods attach behavior to a type.
+- Interfaces describe behavior without requiring inheritance.

@@ -124,3 +124,12 @@ FormatUint   = uint64 → string
 ParseX       = string → value
 FormatX      = value → string
 ```
+
+## Summary
+
+Conversions make a deliberate change between compatible types, while `strconv` parses and formats the textual representation of values.
+
+- Use `TargetType(value)` for explicit compatible conversions.
+- Converting a float to an integer truncates the fractional part.
+- Use `strconv` when translating between numbers, booleans, and strings.
+- Always check errors returned by parsing functions.

@@ -218,20 +218,11 @@ for {
 }
 ```
 
-## Common loop mistakes
+## Summary
 
-- Using `<` when `<=` is needed, or the reverse.
-- Forgetting to update a condition variable.
-- Accessing an index outside the valid range of a slice.
-- Expecting `break` to stop more than the nearest loop.
-- Forgetting that `range` returns copies of slice values.
+Go uses `for` for counted loops, condition-only loops, collection traversal, and intentionally repeated work.
 
-For index-based slice loops, keep the index below the slice length:
-
-```go
-values := []int{10, 20, 30}
-
-for index := 0; index < len(values); index++ {
-	fmt.Println(values[index])
-}
-```
+- Use the three-part form when initialization, condition, and update belong together.
+- Use `range` to iterate over collections and strings.
+- Use `continue` to skip an iteration and `break` to stop the nearest loop.
+- Give an infinite loop an intentional and understandable exit path when it should eventually stop.

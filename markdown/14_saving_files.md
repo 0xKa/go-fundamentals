@@ -138,14 +138,11 @@ return err
 
 Files opened manually should be closed. Closing releases the operating-system resource and can report a final write error.
 
-## Common mistakes
+## Summary
 
-- Passing a string directly to `os.WriteFile` instead of converting it to `[]byte`.
-- Forgetting to create the parent directory.
-- Joining paths manually instead of using `filepath.Join`.
-- Ignoring errors from directory and file operations.
-- Expecting `os.WriteFile` to append instead of replace existing contents.
-- Opening a file and forgetting to close it.
-- Calling `log.Fatal` deep inside reusable code instead of returning an error.
+Saving a file combines formatted bytes, a valid directory and path, an appropriate write operation, and deliberate error handling.
 
-For a small complete save operation: format the value, convert it to bytes, create its folder, build the path, call `os.WriteFile`, and handle the returned error.
+- Convert text to `[]byte` before calling `os.WriteFile`.
+- Create parent directories with `os.MkdirAll`.
+- Build portable paths with `filepath.Join`.
+- Return and handle file errors, and close files opened with `os.OpenFile`.

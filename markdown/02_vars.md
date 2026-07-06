@@ -26,3 +26,12 @@
 	fmt.Println(name4)
 
 ```
+
+## Summary
+
+Go offers several declaration styles, and the clearest choice depends on whether the type or initial value needs to be explicit.
+
+- Use `var name string` when the type should be stated.
+- Let `var name = value` infer the type from a value.
+- Use `name := value` for concise declarations inside functions.
+- Declare first and assign later when the value is not yet available.

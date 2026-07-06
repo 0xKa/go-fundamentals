@@ -304,15 +304,11 @@ true
 
 A struct containing a slice, map, or function cannot be compared with `==` because those field types are not comparable.
 
-## Common mistakes
+## Summary
 
-- Mixing a defined type with its underlying type without an explicit conversion.
-- Using an unkeyed struct literal and placing values in the wrong field order.
-- Expecting an omitted field to receive anything other than its zero value.
-- Expecting a copied struct or a value receiver to update the original struct.
-- Using a pointer receiver for a method that only needs to read a small value.
-- Assuming typed string constants prevent every invalid string from being converted.
-- Comparing a struct that contains a slice, map, or function.
-- Confusing a type alias with a new defined type.
+Structs group related fields, while custom types give important values a distinct identity and a natural home for methods.
 
-Use structs to group data that belongs together, and use custom types to give important values a clear identity. Add methods when behavior naturally belongs with those types.
+- Prefer named fields when creating struct values.
+- Remember that omitted fields receive their zero values.
+- Use value receivers for reading and pointer receivers for mutation.
+- Distinguish a new defined type from a type alias.

@@ -68,3 +68,12 @@ Formatting verbs for `Printf`, `Sprintf`, and `Sprintln` include:
 - `%b` - Binary representation of integers
   
 fmt docs: <https://pkg.go.dev/fmt>
+
+## Summary
+
+The `fmt` package can print values directly or build formatted strings when exact control over their representation is needed.
+
+- Use `Println` for convenient line-based output.
+- Use `Printf` with format verbs for controlled output.
+- Use `Sprintf` when the formatted result should be stored as a string.
+- Choose verbs such as `%s`, `%d`, `%v`, and `%T` to match the value and purpose.

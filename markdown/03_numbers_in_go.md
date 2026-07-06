@@ -51,3 +51,12 @@ list of complex number types in Go:
 list of other numeric types in Go:
 - rune  (alias for int32, represents a Unicode code point)
 - uintptr (an unsigned integer type that is large enough to hold the bit pattern of any pointer, this type is used for low-level programming and is not commonly used in everyday Go programming)
+
+## Summary
+
+Go provides distinct numeric types so programs can choose the range, precision, and representation appropriate for each value.
+
+- Use `int` for ordinary whole-number calculations.
+- Use unsigned integers only when their non-negative range is meaningful.
+- Prefer `float64` for general decimal calculations.
+- Remember that `rune` represents a Unicode code point.

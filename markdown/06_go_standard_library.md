@@ -126,3 +126,12 @@ fmt.Println(result) // apple, banana, pear
 ```
 
 Here, `strings.Split` creates a slice, `sort.Strings` orders it, and `strings.Join` turns it back into one string.
+
+## Summary
+
+The standard library provides focused packages that can be combined to solve common tasks without adding external dependencies.
+
+- Import only the packages the file uses.
+- Use `strings` to clean, split, inspect, and join text.
+- Remember that sorting functions such as `sort.Ints` modify the slice.
+- Combine small package functions to build a complete transformation.

@@ -302,13 +302,11 @@ scores = make(map[string]int)
 scores["Amina"] = 92
 ```
 
-## Common mistakes
+## Summary
 
-- Writing to a nil map before initializing it.
-- Assuming a missing key is present because its zero value was returned.
-- Depending on map iteration order.
-- Trying to use a slice, map, or function as a key.
-- Expecting assignment to create an independent copy of a map.
-- Forgetting that assigning to an existing key replaces its value.
+Maps store values behind unique, comparable keys and are useful when data should be found by meaning rather than numeric position.
 
-Use a map when values need to be found by meaningful, unique keys rather than by numeric positions.
+- Create writable maps with a literal or `make`.
+- Use the comma-ok form when key presence matters.
+- Do not depend on map iteration order.
+- Remember that copied map values share the same underlying data.
