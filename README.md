@@ -58,5 +58,6 @@ number directly remains a one-shot command.
 | 12 | Structs and Custom Types in Go | [12_structs_and_custom_types.go](practice/12_structs_and_custom_types.go) | [12_structs_and_custom_types.md](markdown/12_structs_and_custom_types.md) |
 | 13 | Type Conversions in Go | [13_type_conversions.go](practice/13_type_conversions.go) | [13_type_conversions.md](markdown/13_type_conversions.md) |
 | 14 | Saving Files in Go | [14_saving_files.go](practice/14_saving_files.go) | [14_saving_files.md](markdown/14_saving_files.md) |
+| 15 | Interfaces in Go | [15_interfaces.go](practice/15_interfaces.go) | [15_interfaces.md](markdown/15_interfaces.md) |
 
 Go examples are stored in [`practice/`](practice), and their explanations are stored in [`markdown/`](markdown). More practices will be added over time.
