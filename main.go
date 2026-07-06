@@ -3,9 +3,7 @@ package main
 import "go-fundamentals/gobyexample"
 
 func main() {
-	// gobyexample.ShowInterfacesAndTypeAssertions()
-
-	gobyexample.ShowUTF8StringsAndRunes()
+	gobyexample.ShowServerStateEnum()
 
 	// cli.Start()
 }
