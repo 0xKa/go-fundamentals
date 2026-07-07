@@ -3,7 +3,7 @@ package main
 import "go-fundamentals/gobyexample"
 
 func main() {
-	gobyexample.ShowStructEmbedding()
+	gobyexample.ShowGenericFunctionsAndTypes()
 
 	// cli.Start()
 }
