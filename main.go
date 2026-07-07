@@ -1,9 +1,16 @@
 package main
 
-import "go-fundamentals/gobyexample"
+import (
+	"fmt"
+)
+
+func IntMin(a, b int) int {
+	if a < b {
+		return a
+	}
+	return b
+}
 
 func main() {
-	gobyexample.ShowDefer()
-
-	// cli.Start()
+	fmt.Println(IntMin(2, -2))
 }
