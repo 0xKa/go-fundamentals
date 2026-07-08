@@ -30,6 +30,7 @@ var practiceCatalog = []practiceItem{
 	{number: 13, title: "Type Conversions in Go", run: practice.TypeConversionsEx13},
 	{number: 14, title: "Saving Files in Go", run: practice.SavingFilesEx14},
 	{number: 15, title: "Interfaces in Go", run: practice.InterfacesEx15},
+	{number: 16, title: "HTTP Servers and JSON Routes in Go", run: practice.HTTPServersAndJSONRoutesEx16},
 }
 
 func executePractice(number int) error {
