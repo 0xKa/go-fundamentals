@@ -60,5 +60,6 @@ number directly remains a one-shot command.
 | 14 | Saving Files in Go | [14_saving_files.go](practice/14_saving_files.go) | [14_saving_files.md](markdown/14_saving_files.md) |
 | 15 | Interfaces in Go | [15_interfaces.go](practice/15_interfaces.go) | [15_interfaces.md](markdown/15_interfaces.md) |
 | 16 | HTTP Servers and JSON Routes in Go | [16_http_servers_and_json_routes.go](practice/16_http_servers_and_json_routes.go) | [16_http_servers_and_json_routes.md](markdown/16_http_servers_and_json_routes.md) |
+| 17 | Context in Go | [17_context_in_go.go](practice/17_context_in_go.go) | [17_context_in_go.md](markdown/17_context_in_go.md) |
 
 Go examples are stored in [`practice/`](practice), and their explanations are stored in [`markdown/`](markdown). More practices will be added over time.

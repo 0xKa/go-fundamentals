@@ -21,7 +21,7 @@ func TestFollowingPractice(t *testing.T) {
 		t.Fatalf("got %+v, found %t; want practice 4", next, found)
 	}
 
-	if next, found := followingPractice(16); found {
+	if next, found := followingPractice(17); found {
 		t.Fatalf("got practice %+v after final practice", next)
 	}
 }
@@ -42,7 +42,7 @@ func TestPrintPracticeListIncludesProgress(t *testing.T) {
 
 	text := output.String()
 	for _, expected := range []string{
-		"Practices (1/16 complete):",
+		"Practices (1/17 complete):",
 		"✓ 01: Go Introduction",
 		"○ 02: Variables",
 	} {
