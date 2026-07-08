@@ -1,5 +1,11 @@
 # Context in Go
 
+In short:
+
+> context is a value you pass down so inner services can stop work when the caller no longer needs the result.
+
+In details:
+
 A `context.Context` carries the lifetime of some work. For your first mental model, keep it simple:
 
 ```text
