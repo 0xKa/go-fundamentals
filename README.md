@@ -4,35 +4,67 @@ A growing collection of small Go practices with matching Markdown notes and Go e
 
 ![Interactive Go practice CLI](./markdown/imgs/cli1.png)
 
+## Install
+
+Install [Go 1.26.3 or later](https://go.dev/doc/install), then install version `v0.1.0` of the CLI:
+
+```bash
+go install github.com/0xKa/go-fundamentals@v0.1.0
+```
+
+The executable is installed at:
+
+```text
+<GOBIN>/go-fundamentals
+```
+
+If `GOBIN` is not set, Go uses:
+
+```text
+<GOPATH>/bin/go-fundamentals
+```
+
+On Windows, the executable has an `.exe` extension. Make sure the installation directory is included in your `PATH`.
+
 ## Run the Practice CLI Tool
 
-Run the CLI from the repository root and choose a practice with the arrow keys:
+Run the installed CLI and choose a practice with the arrow keys:
 
-```powershell
-go run .
+```bash
+go-fundamentals
 ```
 
 Alternatively, provide the number directly:
 
-```powershell
-go run . 3
+```bash
+go-fundamentals 3
+```
+
+## Clone Repo
+
+To run the CLI from source instead, clone the repository and run it from the repository root:
+
+```bash
+git clone https://github.com/0xKa/go-fundamentals.git
+cd go-fundamentals
+go run .
 ```
 
 Completed practices are saved in your operating system's user configuration
 directory. The menu and `--list` command show your progress.
 
-```powershell
+```bash
 # Show every practice and its completion status.
-go run . --list
+go-fundamentals --list
 
 # Run the first practice you have not completed.
-go run . --resume
+go-fundamentals --resume
 
 # Clear all saved progress.
-go run . --reset-progress
+go-fundamentals --reset-progress
 
 # Show command help.
-go run . --help
+go-fundamentals --help
 ```
 
 Press `Esc` or `Ctrl+C` to leave the interactive menu without an error.
