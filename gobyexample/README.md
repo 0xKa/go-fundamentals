@@ -1,2 +1,1 @@
-this dir contain topics I saw and practiced from [gobyexample.com](https://gobyexample.com/)
-
+This directory contains topics I studied and practised from [gobyexample.com](https://gobyexample.com/)

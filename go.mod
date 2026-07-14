@@ -1,4 +1,4 @@
-module go-fundamentals
+module github.com/0xKa/go-fundamentals
 
 go 1.26.3
 

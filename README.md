@@ -2,7 +2,7 @@
 
 A growing collection of small Go practices with matching Markdown notes and Go examples.
 
-![alt text](./markdown/imgs/cli.png)
+![Interactive Go practice CLI](./markdown/imgs/cli1.png)
 
 ## Run the Practice CLI Tool
 

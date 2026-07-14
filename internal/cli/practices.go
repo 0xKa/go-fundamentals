@@ -5,7 +5,7 @@ import (
 	"io"
 	"strings"
 
-	"go-fundamentals/practice"
+	"github.com/0xKa/go-fundamentals/practice"
 )
 
 type practiceItem struct {

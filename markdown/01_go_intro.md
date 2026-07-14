@@ -4,7 +4,7 @@
 
 Go is a statically typed, compiled programming language designed at Google. It is known for its simplicity, efficiency, and strong support for concurrent programming. Go is often used for building web servers, networking tools, and other performance-critical applications.
 
-## Is Go Objective Oriented?
+## Is Go Object Oriented?
 
 Go is not a traditional object-oriented programming language, but it does support some object-oriented concepts. In Go, you can define types (structs) and associate methods with them, which allows for encapsulation and behavior similar to classes in other languages. However, Go does not have inheritance or polymorphism in the same way that languages like C# or C++ do.
 

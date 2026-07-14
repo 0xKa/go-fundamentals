@@ -1,7 +1,7 @@
 package main
 
-import "go-fundamentals/gobyexample"
+import "github.com/0xKa/go-fundamentals/internal/cli"
 
 func main() {
-	gobyexample.ShowHTTPRequestContext()
+	cli.Start()
 }
